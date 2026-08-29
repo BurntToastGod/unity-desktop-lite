@@ -1,5 +1,5 @@
 {
-    "image": "ghcr.io/gblikas/unity-desktop-lite/unity-2022/2022.3.11f1:latest",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
     "features": {
         "./local-features/unity-license-activate": {
             "unity_password": "${localEnv:UNITY_PASSWORD}",
