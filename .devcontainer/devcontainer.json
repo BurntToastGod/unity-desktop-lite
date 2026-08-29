@@ -1,12 +1,6 @@
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
     "features": {
-        "./local-features/unity-license-activate": {
-            "unity_password": "${localEnv:UNITY_PASSWORD}",
-            "unity_username": "${localEnv:UNITY_USERNAME}",
-            "unity_serial": "${localEnv:UNITY_SERIAL}",
-            "vnc_password": "${localEnv:VNC_PASSWORD}"
-        }
     },
     "forwardPorts": [6080, 5901],
     "customizations": {
